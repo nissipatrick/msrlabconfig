@@ -1,0 +1,3 @@
+currencyfactorms.datasource.url:jdbc:h2:mem:currencymsDb;DB_CLOSE_DELAY=-1
+currencyfactorms.datasource.username:sa
+currencyfactorms.datasource.password:
