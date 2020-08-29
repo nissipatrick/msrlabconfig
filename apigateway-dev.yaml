@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: currencyfactorms
+        uri: lb://currencyfactorms
+        predicates:
+        - Path=/currencyFactormS/conversionfactorlb
+        
+
+apigateway.eureka.url: http://eureka:8761/eureka
