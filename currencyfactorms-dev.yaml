@@ -6,4 +6,4 @@ currencyfactorms.datasource.driver: org.h2.Driver
 zipkin.url: http://zipkin:9411/
 rabbitmq.host: rabbitmq-master
 rabbitmq.port: "5672"
-currencyfactorms.eureka.url: http://eureka:8761/eureka
+currencyfactorms.eureka.url: http://localhost:8761/eureka
